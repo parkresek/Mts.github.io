@@ -23,17 +23,17 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.php">Beranda</a>
+                        <a class="nav-link" aria-current="page" href="index.php">Beranda</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="agenda.php">Agenda</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Organisasi
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="osis.php">Osis</a></li>
+                            <li><a class="dropdown-item active bg-success" href="osis.php">Osis</a></li>
                             <li><a class="dropdown-item" href="#">Pramuka</a></li>
                             <li><a class="dropdown-item" href="#">PMR</a></li>
                             <li>
@@ -55,19 +55,9 @@
     </nav>
     <!--Navbar-->
     <div class="container bg-success" style="margin-top:100px;">
-        <h2>Osis</h2>
+        <h2>Profil </h2>
     </div>
-    <div class="container" style="background-image:url(img/books-gaf0d7626f_1920.jpg); margin-top:50px;">
-        <div class="container">
-            <div class="text-white rounded">
-                <h3>Visi</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
-                <h3>Misi</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
-
-            </div>
-        </div>
-    </div>
+    <img src="img/ikmt.png" alt="">
     <div class="container bg-success" style="margin-top:50px;">
         <h2>Jurusan</h2>
     </div>
