@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.php">Beranda</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Beranda</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="agenda.php">Agenda</a>
@@ -57,9 +57,29 @@
     <div class="container bg-success" style="margin-top:100px;">
         <h2>Profil </h2>
     </div>
-    <img src="img/ikmt.png" alt="">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="container">
+                    <img src="img/pngwing.com (1).png" alt="" width="200" height="200">
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <h3>Visi</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+
+                <h3>Misi</h3>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</li>
+                    <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
     <div class="container bg-success" style="margin-top:50px;">
-        <h2>Jurusan</h2>
+        <h2>Pengurus</h2>
     </div>
     <!-- grid-->
     <div class="container" style="margin-top: 20px;">
@@ -70,8 +90,8 @@
                     <img src="img/library-g52420156b_1920.jpg" class="card-img" alt="ini adalah gambar contoh">
 
                     <div class="card-body">
-                        <h5 class="card-title">Jurusan 1</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Ketua</h5>
+                        <p class="card-text">Example Name</p>
                         <a href="#" class="btn btn-primary">Detail</a>
                     </div>
                 </div>
@@ -83,8 +103,8 @@
                     <img src="img/library-g52420156b_1920.jpg" class="card-img" alt="ini adalah gambar contoh">
 
                     <div class="card-body">
-                        <h5 class="card-title">Jurusan 2</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Wakil Ketua</h5>
+                        <p class="card-text">Example Name</p>
                         <a href="#" class="btn btn-primary">Detail</a>
                     </div>
                 </div>
@@ -96,8 +116,8 @@
                     <img src="img/library-g52420156b_1920.jpg" class="card-img" alt="ini adalah gambar contoh">
 
                     <div class="card-body">
-                        <h5 class="card-title">Jurusan 3</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Sekretaris</h5>
+                        <p class="card-text">Example Name</p>
                         <a href="#" class="btn btn-primary">Detail</a>
                     </div>
                 </div>
@@ -108,15 +128,15 @@
     <!-- grid-->
     <!--tebel-->
     <div class="container bg-success " style=margin-top:50px>
-        <h2>Daftar Guru</h2>
+        <h2>Kegiatan</h2>
     </div>
     <div class="container" style="margin-top: 10px;">
         <table class="table">
             <thead>
                 <tr>
                     <th scope="co">No</th>
-                    <th scope="co">Nama Guru</th>
-                    <th scope="co">Mata Ajar</th>
+                    <th scope="co">Nama Kegiatan</th>
+                    <th scope="co">Jadwal Kegiatan</th>
                     <th scope="co">Keterangan</th>
                 </tr>
             </thead>
