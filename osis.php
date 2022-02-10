@@ -34,7 +34,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item active bg-success" href="osis.php">Osis</a></li>
-                            <li><a class="dropdown-item" href="#">Pramuka</a></li>
+                            <li><a class="dropdown-item" href="pramuka.php">Pramuka</a></li>
                             <li><a class="dropdown-item" href="#">PMR</a></li>
                             <li>
                                 <hr class="dropdown-divider">
